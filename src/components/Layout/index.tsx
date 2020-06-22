@@ -1,6 +1,7 @@
 import React from "react";
 
 import { Grid } from "./styles";
+import UserInfo from '../UserInfo'
 import ChannelList from '../ChannelList'
 import ChannelInfo from '../ChannelInfo'
 import ServerList from '../ServerList'
@@ -13,6 +14,7 @@ const Layout: React.FC = () =>{
             <ServerName/>
             <ChannelInfo/>
             <ChannelList/>
+            <UserInfo/>
         </Grid>
     )
 };
