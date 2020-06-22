@@ -35,6 +35,6 @@ export default createGlobalStyle`
     --mention-detail: #f9a839;
     --mention-message: #413f3f;
     --link: #5d80d6;
-    --rocketseat: #1746d4;
+    --discord-home: #1746d4;
   }
 `;
