@@ -1,14 +1,15 @@
 import React from "react";
 
-import { Grid } from "./styles";
-import ServerList from '../ServerList'
+import { Container, Title, ExpandIcon } from './styles';
 
-const Layout: React.FC = () =>{
-    return(
-        <Grid>
-            <ServerList/>
-        </Grid>
-    )
+const ServerName: React.FC = () => {
+  return (
+    <Container>
+      <Title>Servidor do Daniel</Title>
+
+      <ExpandIcon />
+    </Container>
+  );
 };
 
-export default Layout;
+export default ServerName;
